@@ -1,3 +1,18 @@
 {
-  "films": []
+  "films": [
+    {
+      "path": "/Users/ronanfuruta/Desktop/Film/PSSSF.mp4",
+      "name": "PSSSFF Promo",
+      "shot": "./shots/PSSSFF Promo.png",
+      "yearMade": "2017",
+      "productionTime": "3 days"
+    },
+    {
+      "path": "/Users/ronanfuruta/Desktop/Film/Ghostly Game.mp4",
+      "name": "Ghostly Game",
+      "shot": "./shots/Ghostly Game.png",
+      "yearMade": "2018",
+      "productionTime": "1yr"
+    }
+  ]
 }

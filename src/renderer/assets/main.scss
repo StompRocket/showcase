@@ -8,17 +8,18 @@ html, body, #app {
   color: $pirmary;
 
 }
+
 nav {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1% 2%;
   height: 10vh;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   h1 {
     font-weight: 600;
     font-size: 1.5em;
-    margin-left: auto;
+
   }
   button {
     margin-left: auto;
@@ -45,6 +46,39 @@ nav {
       opacity: 0.8;
     }
 
-
   }
+}
+
+.films {
+  height: 90vh;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1vw;
+  padding: 2%;
+}
+
+.filmContainer {
+  img {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  p {
+    font-size: 0.8em;
+  }
+
 }

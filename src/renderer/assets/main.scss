@@ -1,0 +1,50 @@
+$accent: #009FB7;
+$pirmary: #272727;
+html, body, #app {
+  background-color: white;
+  font-family: sans-serif;
+  text-align: center;
+  height: 100%;
+  color: $pirmary;
+
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 2%;
+  height: 10vh;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  h1 {
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-left: auto;
+  }
+  button {
+    margin-left: auto;
+
+    background: $accent;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 1%;
+    color: white;
+    font-weight: 500;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    &:focus {
+      outline: none;
+    }
+    &:hover {
+
+      opacity: 0.8;
+    }
+
+
+  }
+}

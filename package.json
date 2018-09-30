@@ -51,6 +51,8 @@
     }
   },
   "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "minireset.css": "0.0.3",
     "vue": "^2.5.16",
     "vue-electron": "^1.0.6"
   },
